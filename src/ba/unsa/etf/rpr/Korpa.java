@@ -1,5 +1,4 @@
 package ba.unsa.etf.rpr;
-
 public class Korpa {
     private Artikl[] artikliUKorpi = new Artikl[50];
     private int brojArtikalaUKorpi;
@@ -20,8 +19,8 @@ public class Korpa {
             if(artikliUKorpi[i].getKod().equals(kod)) {
                 a = artikliUKorpi[i];
                 brojArtikalaUKorpi--;
-                for(int j = i; j < brojArtikalaUKorpi - 1; j++)
-                    artikliUKorpi[j] = artikliUKorpi[j+1];
+                if (brojArtikalaUKorpi - i >= 0)
+                    System.arraycopy(artikliUKorpi, i + 1, artikliUKorpi, i, brojArtikalaUKorpi - i);
             }
         }
         return a;
@@ -33,4 +32,8 @@ public class Korpa {
             ukupno = ukupno + artikliUKorpi[i].getCijena();
         return ukupno;
     }
+    public int getBrojArtikalaUKorpi() {
+        return brojArtikalaUKorpi;
+    }
+
 }
