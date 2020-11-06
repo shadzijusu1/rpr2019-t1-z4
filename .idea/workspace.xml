@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ec34da-8ccb-4bde-a4c9-6241d1e61931" name="Default Changelist" comment="Dodani testovi">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/KorpaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/KorpaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/SupermarketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/SupermarketTest.class" afterDir="false" />
+    <list default="true" id="09ec34da-8ccb-4bde-a4c9-6241d1e61931" name="Default Changelist" comment="Dodani testovi za metodu getArtikli">
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SupermarketTest.getArtikli">
+  <component name="RunManager" selected="JUnit.All in rpr2019-t1-z4">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -87,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArtiklTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KorpaTest.getArtikli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr2019-t1-z4" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +93,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.ArtiklTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="METHOD_NAME" value="getArtikli" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in rpr2019-t1-z4" />
+        <item itemvalue="JUnit.KorpaTest.getArtikli" />
         <item itemvalue="JUnit.SupermarketTest.getArtikli" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.All in rpr2019-t1-z4" />
         <item itemvalue="JUnit.SupermarketTest" />
-        <item itemvalue="JUnit.ArtiklTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604662005121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dodani testovi za metodu getArtikli">
+      <created>1604663336508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604663336508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +196,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dodane određene funkcionalnosti u klase Artikal, Korpa, Supermarket" />
     <MESSAGE value="Dodani testovi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodani testovi" />
+    <MESSAGE value="Dodani testovi za metodu getArtikli" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodani testovi za metodu getArtikli" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604062629726">
