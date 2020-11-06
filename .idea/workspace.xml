@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="09ec34da-8ccb-4bde-a4c9-6241d1e61931" name="Default Changelist" comment="Dodani testovi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/KorpaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/KorpaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/SupermarketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/SupermarketTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SupermarketTest.getArtikli">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -101,21 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KorpaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rpr2019-t1-z4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SupermarketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr2019-t1-z4" />
       <extension name="coverage">
@@ -131,13 +117,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SupermarketTest.getArtikli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.SupermarketTest" />
+      <option name="METHOD_NAME" value="getArtikli" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SupermarketTest.getArtikli" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in rpr2019-t1-z4" />
         <item itemvalue="JUnit.SupermarketTest" />
         <item itemvalue="JUnit.ArtiklTest" />
-        <item itemvalue="JUnit.KorpaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604611747980</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dodani testovi">
+      <created>1604662005121</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604662005121</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,26 +202,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604657529822" />
-    <state width="1322" height="195" key="GridCell.Tab.0.bottom" timestamp="1604661531189">
+    <state width="1322" height="195" key="GridCell.Tab.0.bottom" timestamp="1604662052357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604661531189" />
-    <state width="1322" height="195" key="GridCell.Tab.0.center" timestamp="1604661531189">
+    <state width="1322" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604662052357" />
+    <state width="1322" height="195" key="GridCell.Tab.0.center" timestamp="1604662052356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="195" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604661531189" />
-    <state width="1322" height="195" key="GridCell.Tab.0.left" timestamp="1604661531189">
+    <state width="1322" height="195" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604662052356" />
+    <state width="1322" height="195" key="GridCell.Tab.0.left" timestamp="1604662052356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="195" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604661531189" />
-    <state width="1322" height="195" key="GridCell.Tab.0.right" timestamp="1604661531189">
+    <state width="1322" height="195" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604662052356" />
+    <state width="1322" height="195" key="GridCell.Tab.0.right" timestamp="1604662052357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="195" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604661531189" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604058941531">
+    <state width="1322" height="195" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604662052357" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604662017627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604058941531" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604662017627" />
     <state x="388" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604060453251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -227,7 +236,7 @@
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604229235541" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$All_in_rpr2019_t1_z4.ic" NAME="All in rpr2019-t1-z4 Coverage Results" MODIFIED="1604229427121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$All_in_rpr2019_t1_z4.ic" NAME="All in rpr2019-t1-z4 Coverage Results" MODIFIED="1604661947951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/rpr2019_t1_z4$Main.ic" NAME="Main Coverage Results" MODIFIED="1604060043151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ba.unsa.etf.rpr.*</FILTER>
     </SUITE>

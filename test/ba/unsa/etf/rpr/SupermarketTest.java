@@ -25,4 +25,15 @@ class SupermarketTest {
         Artikl[] artikli = s.getArtikli();
         assertEquals(b.getNaziv(), artikli[0].getNaziv());
     }
+    @Test
+    void getArtikli() {
+        Supermarket s = new Supermarket();
+        Artikl a = new Artikl("Lopta", 5, "13");
+        Artikl b = new Artikl("Biciklo", 1000, "7");
+        s.dodajArtikl(a);
+        s.dodajArtikl(b);
+        Artikl[] artikli = s.getArtikli();
+        assertEquals(a.getNaziv(), artikli[0].getNaziv());
+        assertEquals(b.getNaziv(), artikli[1].getNaziv());
+    }
 }
