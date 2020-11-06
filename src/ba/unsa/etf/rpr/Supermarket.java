@@ -15,7 +15,7 @@ public class Supermarket {
             if(artikliUSupermarketu[i].getKod().equals(kod)) {
                 a = artikliUSupermarketu[i];
                 brojArtikalaUSupermarketu--;
-                for(int j = i; j < brojArtikalaUSupermarketu - 1; j++)
+                for(int j = i; j < brojArtikalaUSupermarketu; j++)
                     artikliUSupermarketu[j] = artikliUSupermarketu[j+1];
             }
         }

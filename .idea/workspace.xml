@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ec34da-8ccb-4bde-a4c9-6241d1e61931" name="Default Changelist" comment="Dodane određene funkcionalnosti u klase Artikal, Korpa, Supermarket">
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+    <list default="true" id="09ec34da-8ccb-4bde-a4c9-6241d1e61931" name="Default Changelist" comment="Dodani testovi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArtiklTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.ArtiklTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KorpaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr2019-t1-z4" />
       <extension name="coverage">
@@ -100,23 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KorpaTest.getBrojArtikalaUKorpi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rpr2019-t1-z4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
-      <option name="METHOD_NAME" value="getBrojArtikalaUKorpi" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SupermarketTest.dodajArtikl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SupermarketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr2019-t1-z4" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.SupermarketTest" />
-      <option name="METHOD_NAME" value="dodajArtikl" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,9 +135,9 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in rpr2019-t1-z4" />
-        <item itemvalue="JUnit.KorpaTest.getBrojArtikalaUKorpi" />
+        <item itemvalue="JUnit.SupermarketTest" />
+        <item itemvalue="JUnit.ArtiklTest" />
         <item itemvalue="JUnit.KorpaTest" />
-        <item itemvalue="JUnit.SupermarketTest.dodajArtikl" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604058922382</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dodani testovi">
+      <created>1604611747980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604611747980</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,33 +181,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dodane određene funkcionalnosti u klase Artikal, Korpa, Supermarket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodane određene funkcionalnosti u klase Artikal, Korpa, Supermarket" />
+    <MESSAGE value="Dodani testovi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodani testovi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604062629726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1604062629726" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1604062313888">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1604657529822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604062313888" />
-    <state width="1322" height="97" key="GridCell.Tab.0.bottom" timestamp="1604611494841">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604657529822" />
+    <state width="1322" height="195" key="GridCell.Tab.0.bottom" timestamp="1604661531189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="97" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604611494841" />
-    <state width="1322" height="97" key="GridCell.Tab.0.center" timestamp="1604611494841">
+    <state width="1322" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604661531189" />
+    <state width="1322" height="195" key="GridCell.Tab.0.center" timestamp="1604661531189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="97" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604611494841" />
-    <state width="1322" height="97" key="GridCell.Tab.0.left" timestamp="1604611494840">
+    <state width="1322" height="195" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604661531189" />
+    <state width="1322" height="195" key="GridCell.Tab.0.left" timestamp="1604661531189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="97" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604611494840" />
-    <state width="1322" height="97" key="GridCell.Tab.0.right" timestamp="1604611494841">
+    <state width="1322" height="195" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604661531189" />
+    <state width="1322" height="195" key="GridCell.Tab.0.right" timestamp="1604661531189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="97" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604611494841" />
+    <state width="1322" height="195" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604661531189" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604058941531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
